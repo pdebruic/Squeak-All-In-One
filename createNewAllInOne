@@ -19,6 +19,6 @@ cp splash.bmp Cog.app/
 cp Info.plist Cog.app/Contents/
 echo "you have to get the image, sources, and changes file and rename them to ${IMAGE_FILE}"
 #./getImage
-
+./makeZipFile $SQUEAK_VERSION
 #./cleanUp
 echo "you have to hand edit the Info.plist"
