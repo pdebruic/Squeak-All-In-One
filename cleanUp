@@ -1,0 +1,6 @@
+#!/bin/bash
+rm -rf Cog.app*
+rm -rf coglinux*
+rm -rf cogwin*
+rm squeak.sh
+rm Squeak.ini

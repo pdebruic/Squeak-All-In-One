@@ -1,0 +1,24 @@
+#!/bin/bash
+SQUEAK_VERSION=$1
+VM_VERSION=$2
+IMAGE_FILE=Squeak$SQUEAK_VERSION.image
+./getVms $VM_VERSION
+./extractVms
+./editSqueakSh $IMAGE_FILE
+./editSqueakIni $SQUEAK_VERSION $IMAGE_FILE
+#editInfoPlist $SQUEAK_VERSION $IMAGE_FILE
+cp cogwin/* Cog.app/
+mkdir Cog.app/Contents/Linux-i686
+cp -r coglinux/bin Cog.app/Contents/Linux-i686/
+cp -r coglinux/lib Cog.app/Contents/Linux-i686/
+#cp -r coglinux/man Cog.app/Contents/Linux-i686/
+cp squeak.sh Cog.app/
+cp Squeak.ini Cog.app/Croquet.ini
+cp Squeak.ini Cog.app/CroquetConsole.ini
+cp splash.bmp Cog.app/
+cp Info.plist Cog.app/Contents/
+echo "you have to get the image, sources, and changes file and rename them to ${IMAGE_FILE}"
+#./getImage
+
+#./cleanUp
+echo "you have to hand edit the Info.plist"

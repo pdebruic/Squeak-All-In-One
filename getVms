@@ -1,0 +1,5 @@
+#!/bin/bash
+VMNO=$1
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/cogwin.zip
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/coglinux.tgz
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/Cog.app.tgz
