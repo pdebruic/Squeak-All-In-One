@@ -5,4 +5,4 @@ touch editSqueakShSed
 echo "s/^WindowTitle.*$/WindowTitle=\"Squeak ${SQUEAK_VERSION} All-In-One\"/" >> editSqueakShSed
 echo "s;^ImageFile=.*$;ImageFile=\"Contents\\\\Resources\\\\${IMAGE_FILE}\";" >> editSqueakShSed
 sed -f editSqueakShSed < Squeak.ini.orig > Squeak.ini
-#rm editSqueakShSed
+rm editSqueakShSed

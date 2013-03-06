@@ -1,4 +1,4 @@
 #!/bin/bash
 SQUEAK_VERSION=$1
 cp -r Cog.app Squeak-$SQUEAK_VERSION-All-In-One.app
-zip Squeak-$SQUEAK_VERSION-All-In-One.zip Squeak-$SQUEAK_VERSION-All-In-One.app
+zip -r Squeak-$SQUEAK_VERSION-All-In-One.zip Squeak-$SQUEAK_VERSION-All-In-One.app
