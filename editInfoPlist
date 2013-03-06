@@ -6,5 +6,5 @@ touch editSqueakShSed
 echo "s/4\.4/${SQUEAK_VERSION}/" >> editSqueakShSed
 echo "s/2697/${VM_VERSION}/" >> editSqueakShSed
 echo "s/44/${IDENTIFIER}/" >> editSqueakShSed
-sed -f editSqueakShSed < Info.plist.orig >Info.plist
+sed -f editSqueakShSed < Info.plist.orig > Info.plist
 rm editSqueakShSed
