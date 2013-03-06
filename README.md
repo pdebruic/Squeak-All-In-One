@@ -8,6 +8,7 @@ To create a Squeak 4.4 all-in-one run ./create4.4AllInOne.  In that file the 4.4
 
 ##Process
 this is what the scripts do:
+
 1. download the vms from Eliot Miranda's site http://www.mirandabanda.org/files/Cog/VM/
 2. extract the vms in the current directory
 4. create the windows Squeak.ini file
