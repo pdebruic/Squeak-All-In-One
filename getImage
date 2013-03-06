@@ -2,9 +2,3 @@
 SQUEAK_VERSION=$1
 wget http://ftp.squeak.org/current_stable/currentStable.zip
 unzip currentStable.zip
-cp *.image Cog.app/Content/Resources/Squeak.image
-cp *.changes Cog.app/Content/Resources/Squeak.changes
-cp *.sources Cog.app/Content/Resources/
-rm *.image
-rm *.changes
-rm *.sources
