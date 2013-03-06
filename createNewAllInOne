@@ -17,8 +17,9 @@ cp Squeak.ini Cog.app/Croquet.ini
 cp Squeak.ini Cog.app/CroquetConsole.ini
 cp splash.bmp Cog.app/
 cp Info.plist Cog.app/Contents/
-echo "you have to get the image, sources, and changes file and rename them to ${IMAGE_FILE}"
 #./getImage
 ./makeZipFile $SQUEAK_VERSION
 #./cleanUp
-echo "you have to hand edit the Info.plist"
+echo "*********************************************"
+echo "you have to get the image, sources, and changes file and rename them to ${IMAGE_FILE} and put them in Contents/Resources/"
+echo "you also have to hand edit the Info.plist for the current Squeak version"

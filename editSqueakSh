@@ -1,7 +1,7 @@
 #!/bin/bash
 IMAGE_FILE=$1
 touch editSqueakShSed
-echo "s;^IMAGEPATH.*$;IMAGEPATH=/Content/Resources/${IMAGE_FILE};" >> editSqueakShSed
+echo "s;^IMAGEPATH.*$;IMAGEPATH=/Contents/Resources/${IMAGE_FILE};" >> editSqueakShSed
 sed -f editSqueakShSed < squeak.sh.orig > squeak.sh
 rm editSqueakShSed
 chmod +x squeak.sh
