@@ -3,7 +3,7 @@
 # Author:      Bert Freudenberg (edited by Paul DeBruicker)
 # Description: Script to run Squeak from the all-in-one app structure
 #              (based on Etoys-To-Go)
-IMAGEPATH="/Contents/Resources/Squeak4.4.image"
+IMAGEPATH="/Contents/Resources/Squeak.image"
 APP=`dirname "$0"`
 APP=`cd "$APP";pwd`
 OS=`uname -s`

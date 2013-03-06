@@ -458,7 +458,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Squeak VM Opt</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Squeak 4.4, VM 4.2.3b1u</string>
+	<string>Squeak 4.4, Cog VM 2697</string>
 	<key>CFBundleShortVersionString</key>
 	<string>4.4</string>
 	<key>CFBundleIconFile</key>
@@ -512,7 +512,7 @@
 	<key>SqueakFloatingWindowGetsFocus</key>
 	<true/>
 	<key>SqueakImageName</key>
-	<string>Squeak4.4-12327.image</string>
+	<string>Squeak.image</string>
 	<key>SqueakMaxHeapSize</key>
 	<integer>536870912</integer>
 	<key>SqueakMouseCmdButton1</key>

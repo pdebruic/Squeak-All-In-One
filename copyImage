@@ -1,0 +1,5 @@
+#!/bin/bash
+cp *.image Cog.app/Contents/Resources/Squeak.image
+cp *.changes Cog.app/Contents/Resources/Squeak.changes
+cp *.sources Cog.app/Contents/Resources/
+
