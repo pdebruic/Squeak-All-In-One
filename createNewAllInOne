@@ -4,17 +4,20 @@ VM_VERSION=$2
 IMAGE_FILE=Squeak.image
 ./getVms $VM_VERSION
 ./extractVms
+./increaseBuildNumber
 ./editSqueakIni $SQUEAK_VERSION $IMAGE_FILE
 ./editInfoPlist $SQUEAK_VERSION $VM_VERSION
+./renameToSqueak
+./removeConsoleFromWindows
 cp cogwin/* Cog.app/
 mkdir Cog.app/Contents/Linux-i686
 cp -r coglinux/bin Cog.app/Contents/Linux-i686/
 cp -r coglinux/lib Cog.app/Contents/Linux-i686/
 cp squeak.sh Cog.app/
-cp Squeak.ini Cog.app/Croquet.ini
-cp Squeak.ini Cog.app/CroquetConsole.ini
+cp Squeak.ini Cog.app/
 cp splash.bmp Cog.app/
 cp Info.plist Cog.app/Contents/
+cp *.icns Cog.app/Contents/Resources/
 #./getImage
 ./copyImage
 ./makeZipFile $SQUEAK_VERSION

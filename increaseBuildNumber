@@ -1,0 +1,9 @@
+#!/bin/bash
+FILENAME=buildNumber
+if [ ! -f $FILENAME ]
+then
+    echo "0" > $FILENAME
+fi 
+OLD=`tail -1 $FILENAME`
+NEW=`expr $OLD + 1`
+echo $NEW > $FILENAME

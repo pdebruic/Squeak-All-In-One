@@ -1,0 +1,4 @@
+#!/bin/bash
+rm cogwin/SqueakConsole.ini
+rm cogwin/SqueakConsole.exe
+rm cogwin/SqueakConsole.map

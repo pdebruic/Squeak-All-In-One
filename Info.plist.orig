@@ -456,13 +456,13 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>Squeak VM Opt</string>
+	<string>Croquet</string>
 	<key>CFBundleGetInfoString</key>
 	<string>Squeak 4.4, Cog VM 2697</string>
 	<key>CFBundleShortVersionString</key>
 	<string>4.4</string>
 	<key>CFBundleIconFile</key>
-	<string>Squeak.icns</string>
+	<string>SqueakVM.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.squeak.SqueakAllInOne44</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -474,7 +474,7 @@
 	<key>CFBundleSignature</key>
 	<string>FAST</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>BVERS</string>
 	<key>CGDisableCoalescedUpdates</key>
 	<true/>
 	<key>LSBackgroundOnly</key>

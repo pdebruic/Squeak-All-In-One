@@ -2,9 +2,11 @@
 SQUEAK_VERSION=$1
 VM_VERSION=$2
 IDENTIFIER=${SQUEAK_VERSION//./}
+BUILDNO=`cat buildNumber`
 touch editSqueakShSed
 echo "s/4\.4/${SQUEAK_VERSION}/" >> editSqueakShSed
 echo "s/2697/${VM_VERSION}/" >> editSqueakShSed
 echo "s/44/${IDENTIFIER}/" >> editSqueakShSed
+echo "s/BVERS/${BUILDNO}/" >> editSqueakShSed
 sed -f editSqueakShSed < Info.plist.orig > Info.plist
 rm editSqueakShSed
