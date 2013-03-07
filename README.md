@@ -11,8 +11,11 @@ this is what the scripts do:
 
 1. download the vms from Eliot Miranda's site http://www.mirandabanda.org/files/Cog/VM/
 2. extract the vms in the current directory
+3. increment the build number
 4. create the windows Squeak.ini file
 5. edit the Info.plist file for the mac app bundle
+6. rename Croquet stuff to Squeak
+7. remove the SqueakConsole from the windows vm download
 5. copy the windows and linux vms into the appropriate place in the Mac app bundle
 6. copy in the squeak.sh, Squeak.ini, splash.bmp, and Info.plist file
 7. copy in the image, sources, changes file if they exist.
