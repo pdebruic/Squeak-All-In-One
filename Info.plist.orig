@@ -456,7 +456,7 @@
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
-	<string>Croquet</string>
+	<string>Squeak</string>
 	<key>CFBundleGetInfoString</key>
 	<string>Squeak 4.4, Cog VM 2697</string>
 	<key>CFBundleShortVersionString</key>
