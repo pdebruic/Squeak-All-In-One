@@ -462,7 +462,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>4.4</string>
 	<key>CFBundleIconFile</key>
-	<string>SqueakVM.icns</string>
+	<string>GreenCogSqueak.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.squeak.SqueakAllInOne44</string>
 	<key>CFBundleInfoDictionaryVersion</key>

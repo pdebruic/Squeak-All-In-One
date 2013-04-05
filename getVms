@@ -1,5 +1,6 @@
 #!/bin/bash
 VMNO=$1
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/cogwin.zip
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/coglinux.tgz
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/Cog.app.tgz
+VM_NUMBER_PREFIX=-13.13.$VMNO
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/cogwin$VM_NUMBER_PREFIX.zip
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/coglinux$VM_NUMBER_PREFIX.tgz
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/Cog.app$VM_NUMBER_PREFIX.tgz

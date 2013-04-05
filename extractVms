@@ -1,4 +1,4 @@
 #!/bin/bash
-tar xvfz coglinux.tgz
-tar xvfz Cog.app.tgz
-unzip cogwin.zip
+tar xvfz coglinux*.tgz
+tar xvfz Cog.app*.tgz
+unzip cogwin*.zip
