@@ -4,7 +4,7 @@ Squeak-All-In-One
 bash scripts to create a Cog based Squeak All In One
 
 ##How To Use
-To create a Squeak 4.4 all-in-one run ./create4.4AllInOne.  In that file the 4.4 specfies the Squeak version and the 2714 specifies the VM version.
+To create a Squeak 4.4 all-in-one edit and then run ./create4.4AllInOne.  In that file the 4.4 specfies the Squeak version, the 2749 specifies the VM version, and the 13.28 specifies the year and week the VM was created.
 
 ##Process
 this is what the scripts do:
