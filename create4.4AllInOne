@@ -1,2 +1,4 @@
 #!/bin/bash
-./createNewAllInOne 4.4 2714
+# the values passed to the createNewAllInOne script are the Squeak version #, the VM version number
+#  and the year/week number Eliot Miranda has used to name the downloads
+./createNewAllInOne 4.4  2749 13.28

@@ -458,7 +458,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Squeak</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Squeak 4.4, Cog VM 2714</string>
+	<string>Squeak 4.4, Cog VM 2749</string>
 	<key>CFBundleShortVersionString</key>
 	<string>4.4</string>
 	<key>CFBundleIconFile</key>
@@ -474,7 +474,7 @@
 	<key>CFBundleSignature</key>
 	<string>FAST</string>
 	<key>CFBundleVersion</key>
-	<string>7</string>
+	<string>8</string>
 	<key>CGDisableCoalescedUpdates</key>
 	<true/>
 	<key>LSBackgroundOnly</key>

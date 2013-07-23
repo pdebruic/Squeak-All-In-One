@@ -1,6 +1,8 @@
 #!/bin/bash
-VMNO=$1
-VM_NUMBER_PREFIX=-13.13.$VMNO
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/cogwin$VM_NUMBER_PREFIX.zip
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/coglinux$VM_NUMBER_PREFIX.tgz
-wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VMNO/Cog.app$VM_NUMBER_PREFIX.tgz
+# Eliot Miranda is using a version number as the directory name .e.g 2749 and a year/week number e.g. 13.28 and this script expects them passed in in that order.
+VM_DIRECTORY_NUMBER=$1
+VM_DATE_NUMBER=$2
+VM_DOWNLOAD_NUMBER=-$VM_DATE_NUMBER.$VM_DIRECTORY_NUMBER
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VM_DIRECTORY_NUMBER/cogwin$VM_DOWNLOAD_NUMBER.zip
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VM_DIRECTORY_NUMBER/coglinux$VM_DOWNLOAD_NUMBER.tgz
+wget http://www.mirandabanda.org/files/Cog/VM/VM.r$VM_DIRECTORY_NUMBER/Cog.app$VM_DOWNLOAD_NUMBER.tgz
